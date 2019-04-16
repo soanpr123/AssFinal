@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:id="@+id/ln_item"
+    android:background="#46CEE6"
+ android:layout_margin="8dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:id="@+id/img_image"
+        android:layout_height="100dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ic_launcher_background"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/tv_name"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="name"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/tv_license_number"
+            android:text="Arhentina"
+            android:textColor="#000"
+            android:textSize="10sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/tv_total_floor"
+            android:text="Click to view social"
+            android:textColor="#000"
+            android:textSize="10sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/tv_city"
+            android:text="Click to view social"
+            android:textColor="#000"
+            android:textSize="10sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/tv_address"
+            android:text="Click to view social"
+            android:textColor="#000"
+            android:textSize="10sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/tv_owner"
+            android:text="Click to view social"
+            android:textColor="#000"
+            android:textSize="10sp" />
+    </LinearLayout>
+</LinearLayout>
